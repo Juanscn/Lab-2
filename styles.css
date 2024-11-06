@@ -1,4 +1,14 @@
 #header {
     background-color: #120323;
     color: #97bf04;
+    height: 20px 0px;
+    width: 100%;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
