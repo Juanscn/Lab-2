@@ -1,7 +1,11 @@
 #header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #120323;
     color: #97bf04;
-    height: 20px 0px;
+    height: 20% 0px;
+    padding: 2%;
     width: 100%;
 }
 
@@ -14,9 +18,15 @@ main {
 
 #image {
     box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, .8);
+    max-width: 900px;
+    max-height: 600px;
+    border-radius: 10px;
+    margin-top: 1.5%;
 }
 
 .animalButton {
     background-color: #d9043d;
     padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 6%;
 }
